@@ -1,4 +1,4 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Project Title : Seattle Weather Project
 
 > A brief description of what the project does and its purpose.
 
@@ -6,9 +6,9 @@
 
 ## Project Overview
 
-Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
+This project aims to compare the amount of rain in Seattle, WA and Baltimore, MD.
 
-- **Objective:** Clearly state the main goal of the project.
+- **Objective:** The objective of this project is to compare the precipitation amount between two cities, Seattle and Baltimore.
 - **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
 - **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
 
@@ -28,9 +28,9 @@ Provide a short and concise overview of the project. Mention the problem it solv
 
 ## Data
 
-- **Source:** Link to the data source(s) 
-- **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
+- **Source:** (https://www.ncei.noaa.gov/cdo-web/)
+- **Description:** Contains historical weather related observations for selected locations across the United States. Location information includes: station name, station identification code, and GPS coordinates. Observations include: time of observation, precipitation (inches to hundreths), snowfall (inches), snow depth (inches).
+- **License:** N/A
 
 ---
 
@@ -48,7 +48,7 @@ Include a short discussion of the findings and what they imply.
 
 ## Authors
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
+- Sophia Akin [@sophsophiea] (https://github.com/sophsophiea)
 
 ---
 
