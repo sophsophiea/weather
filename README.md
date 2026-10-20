@@ -52,7 +52,7 @@ This report aims to determine if it rains more in Seattle than Baltimore, MD. Th
         - Contains 6 columns: date, city, precipitation, day_of_year, month, any_precipitation.
           
        
-- **License:** N/A
+- **License:** Academic purposes only.
 
 ---
 
@@ -79,6 +79,11 @@ This report aims to determine if it rains more in Seattle than Baltimore, MD. Th
 ---
 
 ## Results
+The analysis determined that Seattle has an overall lower average amount of precipitation. Seattle has an average daily precipitation of 0.113 inches with a standard deviation of 0.241 inches. Baltimore has an average daily precipitation of 0.142 inches with a standard deviation of 0.377 inches. Baltimore has a considerably higher maximum precipitation value, 4.79 inches compared to 2.60 inches. Figure 1 shows the difference in average daily precipitation values between the two cities. Figure 2 shows the average precipitation per month for each city. The statistically significant differences are indicated with an asterix. The results of the t-test can be found in the final report and code notebook. Seattle appears to have a higher precipitation amount in the winter months, comparable amounts of precipitation in the spring and fall, lower amounts of precipitation in the summer. However, the months with a statistically significant difference are January, July, August, and September; therefore, the most significant differences are in the late summer.  
+
+ 
+When comparing the proportion of rainy days overall, Seattle has a higher proportion of days with precipitation than Baltimore. Figure 3 shows the proportion of days with precipitation for each city. To provide a more granular analysis, Figure 2 shows the proportion of rainy days per month for the two cities, with an asterisk for statistically significant differences. The results of the z-test can use found in the final report or code notebook. Most months had a statistically significant difference in proportion, except for March, June, and September. Notably September has a statistically significant difference in the amount of rain but not overall proportion of days with rain.  
+
 
 It is difficult to definitively say which city rains more. If we compare overall average rainfall, the answer is Baltimore; if we compare the proportion of days with rainfall, the answer is Seattle. In terms of average amount of rainfall, Baltimore has a higher average daily amount of rainfall and a higher maximum rainfall. Baltimore often tends to have a more consistent monthly average rainfall than Seattle. Additionally, Seattle also exhibits a much wider range of monthly proportions of rainy days. When it rains in Baltimore, it tends to result in a higher amount of rainfall than in Seattle. Seattle appears to be more prone to frequent but lower amounts of rainfall and exhibits more seasonal changes in precipitation. 
 
@@ -92,7 +97,7 @@ It is difficult to definitively say which city rains more. If we compare overall
 
 ## License
 
-N/A
+This project is intended for a course assignment only.
 
 ---
 
