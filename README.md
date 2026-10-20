@@ -20,7 +20,8 @@ This report aims to determine if it rains more in Seattle than Baltimore, MD. Th
 |   |──/balt_rain.csv                          # Raw Baltimore, MD data
 |   |──/clean_seattle_baltimore_weather.csv    # Processed data for Seattle and Baltimore
 ├── code/Baltimore_Weather.ipynb               # Jupyter notebook contains scripts used to clean data and create visualizations
-├── reports/final_report.pdf                   # Generated reports and visualizations
+├── reports/final_report.pdf		       # Generated reports and visualizations
+|   ├──/final_report_revised.pdf	       # Generated reports and visualizations, updated 10/20
 ├── requirements.txt                           # Dependencies
 └── README.md                                  # Project documentation
 ```
@@ -33,7 +34,7 @@ This report aims to determine if it rains more in Seattle than Baltimore, MD. Th
 - [NOAA National Centers for Environmental Information](https://www.ncei.noaa.gov/cdo-web/)
 - **Description:**
 - Overview of Raw Data:
-    - Contains historical weather related observations for selected locations across the United States. Location information includes: station name, station identification code, and GPS coordinates. Observations include: time of observation, precipitation (inches to hundreths), snowfall (inches), snow depth (inches).
+    - Contains historical weather related observations for selected locations across the United States. Location information includes: station name, station identification code, and GPS coordinates. Observations include: time of observation, precipitation (inches to hundredths), snowfall (inches), snow depth (inches).
     - Various column abbreviations and meanings:
         - DAPR = Number of days included in the multi-day precipitation total
         - MDPR = Multi-day precipitation total
@@ -57,7 +58,6 @@ This report aims to determine if it rains more in Seattle than Baltimore, MD. Th
 
 ## Analysis
 
-- Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
 - Baltimore_Weather.ipynb contains all scripts used to perform the analysis. To reproduce the results, 'Run All' to run the code in the order it appears. If an error appears, it can usually be resolved by running all of the code above the error before re-running the cell. 
 - Data Cleaning Process:
     - Standardized column data types and format.
